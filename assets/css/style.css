@@ -4,6 +4,8 @@ body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url(../images/bg.png);
     font-size: 18px;
+    height: 100%;
+    width: 100%;
 }
 
 header{
@@ -17,11 +19,13 @@ header{
 }
 
 main{
+    overflow: auto;
     width: 956px;
     background-color: #ffffff;
     border: 2px solid #dddddd;
     margin-left: 20%;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 footer{
