@@ -1,0 +1,129 @@
+/* Elements */
+body{
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../images/bg.png);
+    font-size: 18px;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+
+main{
+    width: 956px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #ffffff;
+    background-color:#666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: #777777;
+    opacity: 0.5;
+
+}
+
+p {
+    width: 900px;
+    margin: 28px;
+    line-height: 24px;
+}
+
+/* Classes */
+
+.heading {
+    border-bottom: 10px;
+    border-color: #cccccc;
+}
+
+.navbar{
+    width: 960px;
+    margin-left: 20%;
+    background-color: #666666
+}
+
+.links{
+    float: left;
+    width: 630px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+
+.under-construction{
+    margin: 10px 378px;
+    width: 200px;
+}
+
+/* IDs */
+
+
+#name-icon{
+    background-color: #4aaaa5;
+    width: 250px;
+    padding: 0px 40px 0px 40px;
+    float: left;
+}
+
+#about-link{
+    border-right: 1px solid #777777;
+    padding-right: 10px;
+
+}
+
+#portfolio-link{
+    border-right: 1px solid #777777;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+#contact-link{
+    padding-left: 10px;
+
+}
+
+#about-me{
+    width: 900px;
+    color: #4aaaa5;
+    margin-left: 28px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #cccccc;
+}
+#about-me-photo{
+    display: block;
+    height: 205px;
+    width: 226px;
+    margin: 0px 20px 0px 28px;
+    float: left;
+}
